@@ -1,0 +1,14 @@
+.date_container {
+  padding: 10px 0;
+  background-color: royalblue;
+  box-shadow: 1px 1px 6px black;
+  border-radius: 8px;
+
+  .date {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+  }
+}

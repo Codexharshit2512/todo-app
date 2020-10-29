@@ -1,0 +1,33 @@
+// .todo_list {
+//   background-color: yellow;
+// }
+
+.todo_container {
+  background-color: #24b9a7;
+  margin-top: 1rem;
+  border-radius: 8px;
+  padding: 10px 1rem;
+  display: flex;
+  box-shadow: 1px 1px 5px black;
+  .check_box {
+    text-align: center;
+    input {
+      margin-left: 1rem;
+    }
+  }
+  .todo_text {
+    flex: 2;
+    margin-left: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+    font-weight: 500;
+  }
+
+  .cross_icon {
+    span {
+      cursor: pointer;
+      font-size: 17px;
+      color: whitesmoke;
+    }
+  }
+}
